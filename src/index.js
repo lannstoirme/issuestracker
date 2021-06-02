@@ -14,7 +14,7 @@ import userReducer from './Controllers/Redux/userSlice';
 // Redux Configure 
 const reducer = combineReducers({
   auth:authReducer,
-  bug:bugReducer,
+  bugs:bugReducer,
   user:userReducer,
 })
 
@@ -28,4 +28,5 @@ ReactDOM.render(
   
   document.getElementById('root')
 );
+
 
