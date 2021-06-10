@@ -20,3 +20,10 @@ function App() {
 }
 
 export default App;
+
+
+//use exact when using BrowserRouter for Switch and Route, exact path and component
+//for example <Switch>
+// <Route exact path '/ component={HomePage} />
+// <Route path='/bugPage component={ViewBugPage />
+// </Switch>
